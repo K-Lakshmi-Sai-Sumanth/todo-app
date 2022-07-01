@@ -89,7 +89,6 @@ function TodoApp() {
                             <p className="date">{month + " " + currentDate + ", " + year}</p>
                         </div>
                         <div className="inputIconField">
-                            
                             <input className={classnames.join(" ")} type="text" onChange={handleOnChange} value={textValue} placeholder="Add a task..."></input>
                             <button className="inputButton col-3" onClick={tasks}>Add +</button>
                         </div>
